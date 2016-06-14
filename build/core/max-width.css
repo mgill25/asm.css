@@ -1,0 +1,22 @@
+.mwn {
+  max-width: none;
+}
+.mw100p {
+  max-width: 100%;
+}
+@media (min-width: 48em) {
+  .mwnm {
+    max-width: none;
+  }
+  .mw100pm {
+    max-width: 100%;
+  }
+}
+@media (min-width: 64em) {
+  .mwnl {
+    max-width: none;
+  }
+  .mw100pl {
+    max-width: 100%;
+  }
+}

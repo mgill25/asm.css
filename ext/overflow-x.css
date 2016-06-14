@@ -1,0 +1,44 @@
+@import "../int/break.css";
+
+.oxa {
+  overflow-x: auto;
+}
+.oxh {
+  overflow-x: hidden;
+}
+.oxs {
+  overflow-x: scroll;
+}
+.oxv {
+  overflow-x: visible;
+}
+
+@media (--break-medium) {
+  .oxam {
+    overflow-x: auto;
+  }
+  .oxhm {
+    overflow-x: hidden;
+  }
+  .oxsm {
+    overflow-x: scroll;
+  }
+  .oxvm {
+    overflow-x: visible;
+  }
+}
+
+@media (--break-large) {
+  .oxal {
+    overflow-x: auto;
+  }
+  .oxhl {
+    overflow-x: hidden;
+  }
+  .oxsl {
+    overflow-x: scroll;
+  }
+  .oxvl {
+    overflow-x: visible;
+  }
+}

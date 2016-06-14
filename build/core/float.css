@@ -1,0 +1,22 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+@media (min-width: 48em) {
+  .flm {
+    float: left;
+  }
+  .frm {
+    float: right;
+  }
+}
+@media (min-width: 48em) {
+  .fll {
+    float: left;
+  }
+  .frl {
+    float: right;
+  }
+}

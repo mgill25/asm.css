@@ -1,0 +1,55 @@
+.m1 {
+  margin: 8px;
+  margin: 0.5rem;
+}
+.m2 {
+  margin: 16px;
+  margin: 1rem;
+}
+.m3 {
+  margin: 32px;
+  margin: 2rem;
+}
+.m4 {
+  margin: 64px;
+  margin: 4rem;
+}
+.m5 {
+  margin: 128px;
+  margin: 8rem;
+}
+@media (min-width: 48em) {
+  .m1m {
+    margin: 0.5rem;
+  }
+  .m2m {
+    margin: 1rem;
+  }
+  .m3m {
+    margin: 2rem;
+  }
+  .m4m {
+    margin: 4rem;
+  }
+  .m5m {
+    margin: 8rem;
+  }
+}
+@media (min-width: 64em) {
+  .m1l {
+    margin: 0.5rem;
+  }
+  .m2l {
+    margin: 1rem;
+  }
+  .m3l {
+    margin: 2rem;
+  }
+  .m4l {
+    margin: 4rem;
+  }
+  .m5l {
+    margin: 8rem;
+  }
+}
+

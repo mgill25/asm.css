@@ -1,0 +1,45 @@
+@import "../int/break.css";
+
+.oa {
+  overflow: auto;
+}
+.oh {
+  overflow: hidden;
+}
+.os {
+  overflow: scroll;
+}
+.ov {
+  overflow: visible;
+}
+
+@media (--break-medium) {
+  .oam {
+    overflow: auto;
+  }
+  .ohm {
+    overflow: hidden;
+  }
+  .osm {
+    overflow: scroll;
+  }
+  .ovm {
+    overflow: visible;
+  }
+}
+
+@media (--break-large) {
+  .oal {
+    overflow: auto;
+  }
+  .ohl {
+    overflow: hidden;
+  }
+  .osl {
+    overflow: scroll;
+  }
+  .ovl {
+    overflow: visible;
+  }
+}
+

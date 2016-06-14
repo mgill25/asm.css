@@ -1,0 +1,44 @@
+.ha {
+  height: auto;
+}
+.h25p {
+  height: 25%;
+}
+.h50p {
+  height: 50%;
+}
+.h75p {
+  height: 75%;
+}
+.h100p {
+  height: 100%;
+}
+@media (min-width: 48em) {
+  .ham {
+    height: auto;
+  }
+  .h25m {
+    height: 25%;
+  }
+  .h50m {
+    height: 50%;
+  }
+  .h75m {
+    height: 75%;
+  }
+}
+@media (min-width: 64em) {
+  .hal {
+    height: auto;
+  }
+  .h25l {
+    height: 25%;
+  }
+  .h50l {
+    height: 50%;
+  }
+  .h75l {
+    height: 75%;
+  }
+}
+

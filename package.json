@@ -1,0 +1,36 @@
+{
+  "name": "asm.css",
+  "version": "0.0.1",
+  "description": "A simple CSS ASM",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "stylelint": {
+    "extends": ["stylelint-config-standard"],
+    "rules": {
+      "no-duplicate-selectors": true,
+      "at-rule-empty-line-before": null,
+      "rule-non-nested-empty-line-before": null,
+      "selector-list-comma-newline-after": "never-multi-line"
+    }
+  },
+  "dependencies": {
+      "css-mqpacker":               "*",
+      "parker":                     "*",
+      "postcss-browser-reporter":   "*",
+      "postcss-clean":              "*",
+      "postcss-cli":                "*",
+      "postcss-colormin":           "*",
+      "postcss-cssnext":            "*",
+      "postcss-import":             "*",
+      "postcss-merge-rules":        "*",
+      "postcss-url":                "*",
+      "postcss-reporter":           "*",
+      "stylelint":                  "*",
+      "stylelint-config-standard":  "*"
+  }
+}
+

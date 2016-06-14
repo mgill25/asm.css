@@ -1,0 +1,55 @@
+.pt1 {
+  padding-top: 8px;
+  padding-top: 0.5rem;
+}
+.pt2 {
+  padding-top: 16px;
+  padding-top: 1rem;
+}
+.pt3 {
+  padding-top: 32px;
+  padding-top: 2rem;
+}
+.pt4 {
+  padding-top: 64px;
+  padding-top: 4rem;
+}
+.pt5 {
+  padding-top: 128px;
+  padding-top: 8rem;
+}
+@media (min-width: 48em) {
+  .pt1m {
+    padding-top: 0.5rem;
+  }
+  .pt2m {
+    padding-top: 1rem;
+  }
+  .pt3m {
+    padding-top: 2rem;
+  }
+  .pt4m {
+    padding-top: 4rem;
+  }
+  .pt5m {
+    padding-top: 8rem;
+  }
+}
+@media (min-width: 64em) {
+  .pt1l {
+    padding-top: 0.5rem;
+  }
+  .pt2l {
+    padding-top: 1rem;
+  }
+  .pt3l {
+    padding-top: 2rem;
+  }
+  .pt4l {
+    padding-top: 4rem;
+  }
+  .pt5l {
+    padding-top: 8rem;
+  }
+}
+

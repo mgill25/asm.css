@@ -1,0 +1,72 @@
+@import "../int/break.css";
+
+.dn {
+  display: none;
+}
+.db {
+  display: block;
+}
+.di {
+  display: inline;
+}
+.dib {
+  display: inline-block;
+}
+.dt {
+  display: table;
+}
+.dtr {
+  display: table-row;
+}
+.dtc {
+  display: table-cell;
+}
+
+@media (--break-medium) {
+  .dnm {
+    display: none;
+  }
+  .dbm {
+    display: block;
+  }
+  .dim {
+    display: inline;
+  }
+  .dibm {
+    display: inline-block;
+  }
+  .dtm {
+    display: table;
+  }
+  .dtrm {
+    display: table-row;
+  }
+  .dtcm {
+    display: table-cell;
+  }
+}
+
+@media (--break-large) {
+  .dnl {
+    display: none;
+  }
+  .dbl {
+    display: block;
+  }
+  .dil {
+    display: inline;
+  }
+  .dibl {
+    display: inline-block;
+  }
+  .dtl {
+    display: table;
+  }
+  .dtrl {
+    display: table-row;
+  }
+  .dtcl {
+    display: table-cell;
+  }
+}
+

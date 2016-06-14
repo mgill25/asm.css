@@ -1,0 +1,55 @@
+@import "../int/break.css";
+@import "../int/margin.css";
+
+.ml1 {
+  margin-left: var(--margin-xsmall);
+}
+.ml2 {
+  margin-left: var(--margin-small);
+}
+.ml3 {
+  margin-left: var(--margin-medium);
+}
+.ml4 {
+  margin-left: var(--margin-large);
+}
+.ml5 {
+  margin-left: var(--margin-xlarge);
+}
+
+@media (--break-medium) {
+  .ml1m {
+    margin-left: var(--margin-xsmall);
+  }
+  .ml2m {
+    margin-left: var(--margin-small);
+  }
+  .ml3m {
+    margin-left: var(--margin-medium);
+  }
+  .ml4m {
+    margin-left: var(--margin-large);
+  }
+  .ml5m {
+    margin-left: var(--margin-xlarge);
+  }
+}
+
+@media (--break-large) {
+  .ml1l {
+    margin-left: var(--margin-xsmall);
+  }
+  .ml2l {
+    margin-left: var(--margin-small);
+  }
+  .ml3l {
+    margin-left: var(--margin-medium);
+  }
+  .ml4l {
+    margin-left: var(--margin-large);
+  }
+  .ml5l {
+    margin-left: var(--margin-xlarge);
+  }
+}
+

@@ -1,0 +1,8 @@
+.cf::before, .cf::after {
+  display: table;
+}
+
+.cf::after,.cb {
+  clear: both;
+}
+

@@ -1,0 +1,45 @@
+@import "../int/break.css";
+
+.oya {
+  overflow-y: auto;
+}
+.oyh {
+  overflow-y: hidden;
+}
+.oys {
+  overflow-y: scroll;
+}
+.oyv {
+  overflow-y: visible;
+}
+
+@media (--break-medium) {
+  .oyam {
+    overflow-y: auto;
+  }
+  .oyhm {
+    overflow-y: hidden;
+  }
+  .oysm {
+    overflow-y: scroll;
+  }
+  .oyvm {
+    overflow-y: visible;
+  }
+}
+
+@media (--break-large) {
+  .oyal {
+    overflow-y: auto;
+  }
+  .oyhl {
+    overflow-y: hidden;
+  }
+  .oysl {
+    overflow-y: scroll;
+  }
+  .oyvl {
+    overflow-y: visible;
+  }
+}
+

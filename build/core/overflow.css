@@ -1,0 +1,41 @@
+.oa {
+  overflow: auto;
+}
+.oh {
+  overflow: hidden;
+}
+.os {
+  overflow: scroll;
+}
+.ov {
+  overflow: visible;
+}
+@media (min-width: 48em) {
+  .oam {
+    overflow: auto;
+  }
+  .ohm {
+    overflow: hidden;
+  }
+  .osm {
+    overflow: scroll;
+  }
+  .ovm {
+    overflow: visible;
+  }
+}
+@media (min-width: 64em) {
+  .oal {
+    overflow: auto;
+  }
+  .ohl {
+    overflow: hidden;
+  }
+  .osl {
+    overflow: scroll;
+  }
+  .ovl {
+    overflow: visible;
+  }
+}
+

@@ -1,0 +1,26 @@
+@import "../int/break.css";
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+@media (--break-medium) {
+  .flm {
+    float: left;
+  }
+  .frm {
+    float: right;
+  }
+}
+
+@media (--break-medium) {
+  .fll {
+    float: left;
+  }
+  .frl {
+    float: right;
+  }
+}

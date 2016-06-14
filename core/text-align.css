@@ -1,0 +1,36 @@
+@import "../int/break.css";
+
+.tal {
+  text-align: left;
+}
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
+}
+
+@media (--break-medium) {
+  .talm {
+    text-align: left;
+  }
+  .tacm {
+    text-align: center;
+  }
+  .tarm {
+    text-align: right;
+  }
+}
+
+@media (--break-large) {
+  .tall {
+    text-align: left;
+  }
+  .tacl {
+    text-align: center;
+  }
+  .tarl {
+    text-align: right;
+  }
+}
+

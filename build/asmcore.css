@@ -1,0 +1,676 @@
+.bsbb {
+  box-sizing: border-box;
+}
+
+.pr0 {
+  padding-right: 0;
+}
+
+.ma {
+  margin: auto;
+}
+.m0 {
+  margin: 0;
+}
+
+.vab {
+  vertical-align: bottom;
+}
+.vam {
+  vertical-align: middle;
+}
+.vat {
+  vertical-align: top;
+}
+.vasb {
+  vertical-align: sub;
+}
+.vasp {
+  vertical-align: super;
+}
+
+.tal {
+  text-align: left;
+}
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
+}
+
+.pl0 {
+  padding-left: 0;
+}
+
+.cf::before, .cf::after {
+  display: table;
+}
+
+.cf::after,.cb {
+  clear: both;
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
+.mba {
+  margin-bottom: auto;
+}
+.mb0 {
+  margin-bottom: 0;
+}
+
+.toc {
+  text-overflow: clip;
+}
+
+.toe {
+  text-overflow: ellipsis;
+}
+
+.fwlr {
+  font-weight: lighter;
+}
+.fwn {
+  font-weight: normal;
+}
+.fwb {
+  font-weight: bold;
+}
+.fwbr {
+  font-weight: bolder;
+}
+
+.wsp {
+  white-space: pre;
+}
+.wsnw {
+  white-space: nowrap;
+}
+
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.pr {
+  position: relative;
+}
+.ps {
+  position: static;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.fssr {
+  font-size: smaller;
+}
+.fslr {
+  font-size: larger;
+}
+.fsxxs {
+  font-size: xx-small;
+}
+.fsxs {
+  font-size: x-small;
+}
+.fss {
+  font-size: small;
+}
+.fsm {
+  font-size: medium;
+}
+.fsl {
+  font-size: large;
+}
+.fsxl {
+  font-size: x-large;
+}
+.fsxxl {
+  font-size: xx-large;
+}
+
+.mwn {
+  max-width: none;
+}
+.mw100p {
+  max-width: 100%;
+}
+.tdlt {
+  text-decoration: line-through;
+}
+.tdn {
+  text-decoration: none;
+}
+.tdu {
+  text-decoration: underline;
+}
+
+.mta {
+  margin-top: auto;
+}
+.mt0 {
+  margin-top: 0;
+}
+
+.wa {
+  width: auto;
+}
+.w10p {
+  width: 10%;
+}
+.w15p {
+  width: 15%;
+}
+.w20p {
+  width: 20%;
+}
+.w25p {
+  width: 25%;
+}
+.w30p {
+  width: 30%;
+}
+.w33p {
+  width: 33.33%;
+}
+.w50p {
+  width: 50%;
+}
+.w60p {
+  width: 60%;
+}
+.w66p {
+  width: 66.66%;
+}
+.w70p {
+  width: 70%;
+}
+.w75p {
+  width: 75%;
+}
+.w80p {
+  width: 80%;
+}
+.w85p {
+  width: 85%;
+}
+.w90p {
+  width: 90%;
+}
+.w100p {
+  width: 100%;
+}
+
+.oa {
+  overflow: auto;
+}
+.oh {
+  overflow: hidden;
+}
+.os {
+  overflow: scroll;
+}
+.ov {
+  overflow: visible;
+}
+
+.dn {
+  display: none;
+}
+.db {
+  display: block;
+}
+.di {
+  display: inline;
+}
+.dib {
+  display: inline-block;
+}
+.dt {
+  display: table;
+}
+.dtr {
+  display: table-row;
+}
+.dtc {
+  display: table-cell;
+}
+
+.mra {
+  margin-right: auto;
+}
+.mr0 {
+  margin-right: 0;
+}
+
+.lsn {
+  list-style: none;
+}
+
+.bss {
+  border-style: solid;
+}
+
+.ha {
+  height: auto;
+}
+.h25p {
+  height: 25%;
+}
+.h50p {
+  height: 50%;
+}
+.h75p {
+  height: 75%;
+}
+.h100p {
+  height: 100%;
+}
+
+.mla {
+  margin-left: auto;
+}
+.ml0 {
+  margin-left: 0;
+}
+
+.fsn {
+  font-style: normal;
+}
+.fso {
+  font-style: oblique;
+}
+.fsi {
+  font-style: italic;
+}
+
+.tlf {
+  table-layout: fixed;
+}
+
+.bcc {
+  border-collapse: collapse;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.pt0 {
+  padding-top: 0;
+}
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cf {
+  *zoom: 1;
+}
+.cf::after {
+  content: " ";
+}
+@media (min-width: 48em) {
+
+  .vabm {
+    vertical-align: bottom;
+  }
+
+  .vamm {
+    vertical-align: middle;
+  }
+
+  .vatm {
+    vertical-align: top;
+  }
+
+  .vasbm {
+    vertical-align: sub;
+  }
+
+  .vaspm {
+    vertical-align: super;
+  }
+
+  .talm {
+    text-align: left;
+  }
+
+  .tacm {
+    text-align: center;
+  }
+
+  .tarm {
+    text-align: right;
+  }
+
+  .mwnm {
+    max-width: none;
+  }
+
+  .mw100pm {
+    max-width: 100%;
+  }
+
+  .wam {
+    width: auto;
+  }
+
+  .w10pm {
+    width: 10%;
+  }
+
+  .w15pm {
+    width: 15%;
+  }
+
+  .w20pm {
+    width: 20%;
+  }
+
+  .w25pm {
+    width: 25%;
+  }
+
+  .w30pm {
+    width: 30%;
+  }
+
+  .w33pm {
+    width: 33.33%;
+  }
+
+  .w50pm {
+    width: 50%;
+  }
+
+  .w60pm {
+    width: 60%;
+  }
+
+  .w66pm {
+    width: 66.66%;
+  }
+
+  .w70pm {
+    width: 70%;
+  }
+
+  .w75pm {
+    width: 75%;
+  }
+
+  .w80pm {
+    width: 80%;
+  }
+
+  .w85pm {
+    width: 85%;
+  }
+
+  .w90pm {
+    width: 90%;
+  }
+
+  .w100pm {
+    width: 100%;
+  }
+
+  .oam {
+    overflow: auto;
+  }
+
+  .ohm {
+    overflow: hidden;
+  }
+
+  .osm {
+    overflow: scroll;
+  }
+
+  .ovm {
+    overflow: visible;
+  }
+
+  .dnm {
+    display: none;
+  }
+
+  .dbm {
+    display: block;
+  }
+
+  .dim {
+    display: inline;
+  }
+
+  .dibm {
+    display: inline-block;
+  }
+
+  .dtm {
+    display: table;
+  }
+
+  .dtrm {
+    display: table-row;
+  }
+
+  .dtcm {
+    display: table-cell;
+  }
+
+  .ham {
+    height: auto;
+  }
+
+  .h25m {
+    height: 25%;
+  }
+
+  .h50m {
+    height: 50%;
+  }
+
+  .h75m {
+    height: 75%;
+  }
+
+  .tlfm {
+    table-layout: fixed;
+  }
+
+  .flm {
+    float: left;
+  }
+
+  .frm {
+    float: right;
+  }
+
+  .fll {
+    float: left;
+  }
+
+  .frl {
+    float: right;
+  }
+}
+@media (min-width: 64em) {
+
+  .vablm {
+    vertical-align: baseline;
+  }
+
+  .vabm {
+    vertical-align: bottom;
+  }
+
+  .vamm {
+    vertical-align: middle;
+  }
+
+  .vatl {
+    vertical-align: top;
+  }
+
+  .vasbm {
+    vertical-align: sub;
+  }
+
+  .vaspm {
+    vertical-align: super;
+  }
+
+  .tall {
+    text-align: left;
+  }
+
+  .tacl {
+    text-align: center;
+  }
+
+  .tarl {
+    text-align: right;
+  }
+
+  .mwnl {
+    max-width: none;
+  }
+
+  .mw100pl {
+    max-width: 100%;
+  }
+
+  .wal {
+    width: auto;
+  }
+
+  .w10pl {
+    width: 10%;
+  }
+
+  .w15pl {
+    width: 15%;
+  }
+
+  .w20pl {
+    width: 20%;
+  }
+
+  .w25pl {
+    width: 25%;
+  }
+
+  .w30pl {
+    width: 30%;
+  }
+
+  .w33pl {
+    width: 33.33%;
+  }
+
+  .w50pl {
+    width: 50%;
+  }
+
+  .w60pl {
+    width: 60%;
+  }
+
+  .w66pl {
+    width: 66.66%;
+  }
+
+  .w70pl {
+    width: 70%;
+  }
+
+  .w75pl {
+    width: 75%;
+  }
+
+  .w80pl {
+    width: 80%;
+  }
+
+  .w85pl {
+    width: 85%;
+  }
+
+  .w90pl {
+    width: 90%;
+  }
+
+  .w100pl {
+    width: 100%;
+  }
+
+  .oal {
+    overflow: auto;
+  }
+
+  .ohl {
+    overflow: hidden;
+  }
+
+  .osl {
+    overflow: scroll;
+  }
+
+  .ovl {
+    overflow: visible;
+  }
+
+  .dnl {
+    display: none;
+  }
+
+  .dbl {
+    display: block;
+  }
+
+  .dil {
+    display: inline;
+  }
+
+  .dibl {
+    display: inline-block;
+  }
+
+  .dtl {
+    display: table;
+  }
+
+  .dtrl {
+    display: table-row;
+  }
+
+  .dtcl {
+    display: table-cell;
+  }
+
+  .hal {
+    height: auto;
+  }
+
+  .h25l {
+    height: 25%;
+  }
+
+  .h50l {
+    height: 50%;
+  }
+
+  .h75l {
+    height: 75%;
+  }
+}

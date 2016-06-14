@@ -1,0 +1,12 @@
+@import "../int/font.css";
+
+.ffs {
+  font-family: var(--font-serif);
+}
+.ffss {
+  font-family: var(--font-sans-serif);
+}
+.ffm {
+  font-family: var(--font-monospace);
+}
+

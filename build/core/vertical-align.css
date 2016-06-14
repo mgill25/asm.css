@@ -1,0 +1,53 @@
+.vab {
+  vertical-align: bottom;
+}
+.vam {
+  vertical-align: middle;
+}
+.vat {
+  vertical-align: top;
+}
+.vasb {
+  vertical-align: sub;
+}
+.vasp {
+  vertical-align: super;
+}
+@media (min-width: 48em) {
+  .vabm {
+    vertical-align: bottom;
+  }
+  .vamm {
+    vertical-align: middle;
+  }
+  .vatm {
+    vertical-align: top;
+  }
+  .vasbm {
+    vertical-align: sub;
+  }
+  .vaspm {
+    vertical-align: super;
+  }
+}
+@media (min-width: 64em) {
+  .vablm {
+    vertical-align: baseline;
+  }
+  .vabm {
+    vertical-align: bottom;
+  }
+  .vamm {
+    vertical-align: middle;
+  }
+  .vatl {
+    vertical-align: top;
+  }
+  .vasbm {
+    vertical-align: sub;
+  }
+  .vaspm {
+    vertical-align: super;
+  }
+}
+

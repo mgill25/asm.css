@@ -1,0 +1,55 @@
+@import "../int/break.css";
+@import "../int/margin.css";
+
+.mt1 {
+  margin-top: var(--margin-xsmall);
+}
+.mt2 {
+  margin-top: var(--margin-small);
+}
+.mt3 {
+  margin-top: var(--margin-medium);
+}
+.mt4 {
+  margin-top: var(--margin-large);
+}
+.mt5 {
+  margin-top: var(--margin-xlarge);
+}
+
+@media (--break-medium) {
+  .mt1m {
+    margin-top: var(--margin-xsmall);
+  }
+  .mt2m {
+    margin-top: var(--margin-small);
+  }
+  .mt3m {
+    margin-top: var(--margin-medium);
+  }
+  .mt4m {
+    margin-top: var(--margin-large);
+  }
+  .mt5m {
+    margin-top: var(--margin-xlarge);
+  }
+}
+
+@media (--break-large) {
+  .mt1l {
+    margin-top: var(--margin-xsmall);
+  }
+  .mt2l {
+    margin-top: var(--margin-small);
+  }
+  .mt3l {
+    margin-top: var(--margin-medium);
+  }
+  .mt4l {
+    margin-top: var(--margin-large);
+  }
+  .mt5l {
+    margin-top: var(--margin-xlarge);
+  }
+}
+

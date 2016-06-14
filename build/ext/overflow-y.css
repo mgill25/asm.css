@@ -1,0 +1,41 @@
+.oya {
+  overflow-y: auto;
+}
+.oyh {
+  overflow-y: hidden;
+}
+.oys {
+  overflow-y: scroll;
+}
+.oyv {
+  overflow-y: visible;
+}
+@media (min-width: 48em) {
+  .oyam {
+    overflow-y: auto;
+  }
+  .oyhm {
+    overflow-y: hidden;
+  }
+  .oysm {
+    overflow-y: scroll;
+  }
+  .oyvm {
+    overflow-y: visible;
+  }
+}
+@media (min-width: 64em) {
+  .oyal {
+    overflow-y: auto;
+  }
+  .oyhl {
+    overflow-y: hidden;
+  }
+  .oysl {
+    overflow-y: scroll;
+  }
+  .oyvl {
+    overflow-y: visible;
+  }
+}
+

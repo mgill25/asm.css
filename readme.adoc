@@ -1,0 +1,33 @@
+== asm.css
+
+=== What is asm.css?
+asm.css is a css _assembly_.
+asmcore.css contains core classes, core being most popular and used.
+asmext.css contains less commonly used classes.
+asmvar.css contains variable classes which are set from css variables.
+
+.Example
+----
+border-style: none -> .bsn
+display: table -> .dt
+height: auto -> .ha
+width: 10% -> .w10p
+----
+
+=== FAQ
+* How is this different from Tachyons?
+** asm.css has file-per-property naming as in vertical-align is in vertical-align.css
+** asm.css naming scheme is less arbitrary, there are no dashes, double dashes and
+   class names represent the respective property (i.e font-size -> .fs) as close
+   as possible and when not possible syllable split letter or first-different-letter
+   is used.
+** asm.css doesn't bundle normalize.css.
+** asm.css doesn't enforce box-sizing: border-box.
+
+=== Pull requests
+* Additions must have real word use cases and be general enough.
+* Additions should be a single property.
+* Naming scheme should be followed.
+* Removal of useless CSS is welcome.
+* Explain the reasoning for the changes in the commit message.
+

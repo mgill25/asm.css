@@ -1,0 +1,27 @@
+@import "../int/break.css";
+
+.vatt {
+  vertical-align: text-top;
+}
+.vatb {
+  vertical-align: text-bottom;
+}
+
+@media (--break-medium) {
+  .vattm {
+    vertical-align: text-top;
+  }
+  .vatbm {
+    vertical-align: text-bottom;
+  }
+}
+
+@media (--break-large) {
+  .vattm {
+    vertical-align: text-top;
+  }
+  .vatbm {
+    vertical-align: text-bottom;
+  }
+}
+

@@ -1,0 +1,9 @@
+.tlf {
+  table-layout: fixed;
+}
+@media (min-width: 48em) {
+  .tlfm {
+    table-layout: fixed;
+  }
+}
+

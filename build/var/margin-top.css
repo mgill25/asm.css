@@ -1,0 +1,55 @@
+.mt1 {
+  margin-top: 8px;
+  margin-top: 0.5rem;
+}
+.mt2 {
+  margin-top: 16px;
+  margin-top: 1rem;
+}
+.mt3 {
+  margin-top: 32px;
+  margin-top: 2rem;
+}
+.mt4 {
+  margin-top: 64px;
+  margin-top: 4rem;
+}
+.mt5 {
+  margin-top: 128px;
+  margin-top: 8rem;
+}
+@media (min-width: 48em) {
+  .mt1m {
+    margin-top: 0.5rem;
+  }
+  .mt2m {
+    margin-top: 1rem;
+  }
+  .mt3m {
+    margin-top: 2rem;
+  }
+  .mt4m {
+    margin-top: 4rem;
+  }
+  .mt5m {
+    margin-top: 8rem;
+  }
+}
+@media (min-width: 64em) {
+  .mt1l {
+    margin-top: 0.5rem;
+  }
+  .mt2l {
+    margin-top: 1rem;
+  }
+  .mt3l {
+    margin-top: 2rem;
+  }
+  .mt4l {
+    margin-top: 4rem;
+  }
+  .mt5l {
+    margin-top: 8rem;
+  }
+}
+

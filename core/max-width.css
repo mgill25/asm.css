@@ -1,0 +1,26 @@
+@import "../int/break.css";
+
+.mwn {
+  max-width: none;
+}
+.mw100p {
+  max-width: 100%;
+}
+
+@media (--break-medium) {
+  .mwnm {
+    max-width: none;
+  }
+  .mw100pm {
+    max-width: 100%;
+  }
+}
+
+@media (--break-large) {
+  .mwnl {
+    max-width: none;
+  }
+  .mw100pl {
+    max-width: 100%;
+  }
+}

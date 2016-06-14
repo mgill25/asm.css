@@ -1,0 +1,12 @@
+@import "../int/break.css";
+
+.tlf {
+  table-layout: fixed;
+}
+
+@media (--break-medium) {
+  .tlfm {
+    table-layout: fixed;
+  }
+}
+

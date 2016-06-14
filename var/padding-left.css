@@ -1,0 +1,55 @@
+@import "../int/break.css";
+@import "../int/padding.css";
+
+.pl1 {
+  padding-left: var(--padding-xsmall);
+}
+.pl2 {
+  padding-left: var(--padding-small);
+}
+.pl3 {
+  padding-left: var(--padding-medium);
+}
+.pl4 {
+  padding-left: var(--padding-large);
+}
+.pl5 {
+  padding-left: var(--padding-xlarge);
+}
+
+@media (--break-medium) {
+  .pl1m {
+    padding-left: var(--padding-xsmall);
+  }
+  .pl2m {
+    padding-left: var(--padding-small);
+  }
+  .pl3m {
+    padding-left: var(--padding-medium);
+  }
+  .pl4m {
+    padding-left: var(--padding-large);
+  }
+  .pl5m {
+    padding-left: var(--padding-xlarge);
+  }
+}
+
+@media (--break-large) {
+  .pl1l {
+    padding-left: var(--padding-xsmall);
+  }
+  .pl2l {
+    padding-left: var(--padding-small);
+  }
+  .pl3l {
+    padding-left: var(--padding-medium);
+  }
+  .pl4l {
+    padding-left: var(--padding-large);
+  }
+  .pl5l {
+    padding-left: var(--padding-xlarge);
+  }
+}
+
